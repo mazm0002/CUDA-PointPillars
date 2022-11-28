@@ -103,7 +103,7 @@ def main():
       MAX_VOXELS = 10000
 
       dummy_voxels = torch.zeros(
-          (MAX_VOXELS, 32, 4),
+          (MAX_VOXELS, 100, 4),
           dtype=torch.float32,
           device='cuda:0')
 
